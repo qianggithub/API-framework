@@ -1,0 +1,26 @@
+{
+  "name":"pb/yii2-swoole",
+  "description": "swoole yii2",
+  "type":"project",
+  "license": "Apache-2.0",
+  "keywords": [
+    "yii2",
+    "swoole"
+  ],
+  "require": {
+    "yiisoft/yii2": "~2.0.14",
+    "yiisoft/yii2-redis": "~2.0.0",
+    "yiisoft/yii2-swiftmailer": "^2.1",
+    "yiisoft/yii2-httpclient": "~2.0.0",
+    "ezyang/htmlpurifier":"~4.9.3",
+    "sizeg/yii2-jwt": "^1.0"
+  },
+  "autoload": {
+    "files": [
+      "sw/servers/Dispatcher.php",
+      "sw/servers/Server.php",
+      "sw/servers/Http.php",
+      "sw/Application.php"
+    ]
+  }
+}

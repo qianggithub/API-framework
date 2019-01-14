@@ -1,0 +1,7 @@
+#!/usr/bin/env php
+<?php
+
+require(__DIR__ . '/../vendor/autoload.php');
+
+$http = require(__DIR__ . '/../config/http.php');
+(new \app\sw\servers\Dispatcher($http))->run();
